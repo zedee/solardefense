@@ -1,0 +1,40 @@
+//Vars
+@White: #FFF;
+@Yellow: #FFF644;
+@Green: #00FA55;
+
+body {
+	width: 960px;
+	margin: 50px auto;
+	background-color: #000;
+	font-size: 16px;
+	font-family: helvetica, arial, sans-serif;
+	color: @White;
+	
+	ul {
+		list-style-type: none;
+	}
+	
+	a { 
+		text-decoration: none;
+		font-size: 0.8em;
+		color: @Green;
+		
+		&:hover {
+			color: @Yellow;
+		}
+	}
+	
+	#container {
+	width: 640px;
+	height: 480px;
+	margin: 0px auto;
+	border: 1px solid white;
+	}
+	
+	canvas {
+		width: 640px;
+		height: 480px;
+	}
+}
+
